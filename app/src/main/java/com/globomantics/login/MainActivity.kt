@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 password.text.toString()
             )
         ) {
-            Log.d(tag: "PASSWORD SUCCESSFUL", password.text.toString())
+           
             Toast.makeText(context: this, text:"Login Successful", Toast.LENGTH_SHORT).show()
         } else {
-            Log.d(tag: "PASSWORD FAILED", password.text.toString())
+
             Toast.makeText(context: this, text:"Login Failed", Toast.LENGTH_SHORT).show()
         }
     }
